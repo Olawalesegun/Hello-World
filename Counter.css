@@ -1,0 +1,116 @@
+body {
+    box-sizing: border-box;
+    margin:0%;
+    background-color:darkolivegreen;
+    background-image: url("pexels-sharad-kachhi-3937174.jpg");
+    background-size: contain;
+    
+}
+.tracks {
+    background-color: rgb(117, 151, 253);
+    margin-top: 0;
+    text-align: center;
+    font-size: 50px;
+}
+div span {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    border:5px solid rgb(194, 194, 248);
+    border-radius: 12px;
+    background-color: rgb(194, 194, 248) ;
+    margin: 20px 0px 20x 180px;
+    height: 190px;
+    float: 0 70px 0 70px;
+    font-weight: bold;
+    padding-top: 76px;
+    padding-bottom: 0px;
+    text-align: 50px 7px;
+    margin-bottom: 80px;
+}
+.box {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    column-gap: 15px;
+    margin-top: 85px;
+    margin-left: 90px;
+    margin-right: 5px;
+    }
+
+
+h3 {
+    text-align: center;
+    font-size: 50px;
+}
+
+/* #number {
+    display: inline-b;
+    text-align: center;
+} */
+button {
+    background-color: crimson;
+    display:inline-block;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 500px;
+}
+.F1 {
+    background-color: crimson;
+    border: 2px solid crimson;
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.F2 {
+    background-color: rgb(243, 89, 166);
+    border: 2px solid rgb(243, 89, 166);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+.F3 {
+    background-color: chartreuse;
+    border: 2px solid chartreuse;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+p {
+    text-align: center;
+    font-weight: bolder;
+    color: gainsboro;
+    padding-top: 1px;
+    font-family: monospace;
+    font-size: 28px;
+    display:inline-block;
+    border: 2px solid black;
+    border-radius: 20px 0 20px 0;
+    margin-left: 290px;
+    background-color: black;
+
+}
+h3 {
+    color:rgb(255, 255, 255);
+}
+.F1:hover {
+    background-size: 67%;
+    background-color:seagreen;
+    border-color: seagreen;
+    color: white;
+    transition: all;
+}
+.F2:hover {
+    background-size: 67%;
+    background-color:rgb(167, 60, 60);
+    border-color: rgb(167, 60, 60);
+    color: white;
+    transition: all;
+}
+.F3:hover {
+    background-size: 67%;
+    background-color:yellow;
+    border-color: yellow;
+    color: white;
+    transition: all;
+}
